@@ -5,10 +5,12 @@ O projeto trata-se de um jogo interativo em que o usuário controla o personagem
 ## Índice
 
 * [Inspirações](#inspirações)
+* [Comandos](#comandos)
 * [Square](#square)
-* [Guia de uso](#guia-de-uso)
-* [Tecnologias](#tecnologias)
-  * [Módulos](#módulos)
+* [Triângulos](#triângulos)
+* [Tempo de sobrevivência](#tempo-de-sobrevivência)
+* [Autores](#autores)
+
 
 
 ## Inspirações
@@ -78,6 +80,31 @@ if (gameData.m_state == State::Playing) {
 ```
 
 Para construção do mesmo, é definido primordialmente a quantidade de lados do polígono, e depois utilizado funções da biblioteca OpenGl.
+
+## Tempo de sobrevivência
+
+Ao iniciar o jogo, é possível observar o tempo em que o Square está vivo. A ideia é que esse valor sirva de maneira como uma pontuação, e que a competitividade dos jogadores seja baseada nesse valor.
+
+```cpp
+// definição da variável no arquivo openglwindow.hpp
+float m_surviveTime{};
+
+// Utilização da função ImGui para disponibilizar o valor de tempo no canto inferior direito da tela.
+// arquivo openglwindow.cpp
+ImGui::SetNextWindowSize(ImVec2(150, 70));
+ImGui::SetNextWindowPos(ImVec2(500, (m_viewportHeight - 85)));
+ImGuiWindowFlags flags{ImGuiWindowFlags_NoBackground |
+                      ImGuiWindowFlags_NoTitleBar |
+                      ImGuiWindowFlags_NoInputs};
+ImGui::Begin("2", nullptr, flags);
+ImGui::PushFont(m_font);
+if(m_gameData.m_state == State::Playing){
+  ImGui::Text("%.1f",m_time.elapsed());
+}
+ImGui::PopFont();
+ImGui::End();
+```
+
 
 ## Autores
 

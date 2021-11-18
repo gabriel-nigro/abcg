@@ -3,6 +3,7 @@
 ## Índice
 
 * [Inspirações](#inspirações)
+* [Como jogar?](#como-jogar-?)
 * [Coin](#coin)
 * [Definição de vencedor](#definição-de-vencedor)
 * [Autores](#autores)
@@ -12,6 +13,12 @@ O projeto trata-se de uma simulação de um jogo bem popular, o famoso "Cara ou 
 ## Inspirações
 
 Ao pesquisar por "Cara ou Coroa" no [Google](https://www.google.com/search?q=Cara+ou+Coroa), é possível visualizar um jogo interativo provido pela própria plataforma de pesquisa, o qual o comportamento assemelha-se ao projeto.  
+
+## Como jogar?
+
+A mecânica de jogo é bem simples e intuitiva. Basta selecionar a face, tendo como opções "Cara" ou "Coroa" e, após selecionada, marcar a opção de "Parar a moeda". Assim, o jogo indicará o vencedor na caixa de texto abaixo da moeda.
+
+Para que a moeda volte a girar, basta desmarcar o "checkbox" e, ao marcá-lo novamente, aparecerá o novo vencedor.
 
 ## Coin
 

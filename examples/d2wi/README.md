@@ -1,4 +1,4 @@
-# [Dust2 - Weapon Inspect](https://gabriel-nigro.github.io/abcg/headnTails/index.html)
+# [Dust2 - Weapon Inspect](https://gabriel-nigro.github.io/abcg/d2wi/index.html)
 
 O projeto trata-se de um visualizador de equipamento simples situado em um determinado cenário, no qual o é possível observar os detalhes de textura do objeto modelado, sendo capaz de rotacionar o equipamento a partir das ações do mouse.   
 
@@ -10,6 +10,7 @@ O projeto trata-se de um visualizador de equipamento simples situado em um deter
 * [How to](#how-to)
 * [Cenário](#cenário)
 * [AK-47](#ak-47)
+* [Flying AKs](#flying-aks)
 * [Apêndice](#apêndice)
 * [Autores](#autores)
 

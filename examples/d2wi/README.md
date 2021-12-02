@@ -24,7 +24,7 @@ O projeto visa ser análogo ao inspetor de equipamentos presente no jogo [Counte
 
 ## How To
 
-Ao posicionar o mouse sobre a aplicação, basta clicar com o botão direito e arrastá-lo de acordo com a angulação desejada, de maneira que o objeto será rotacionado e disponibilizará a visualização por completo sobre o equipamento, trazendo a noção de inspeção desejada.
+Ao posicionar o mouse sobre a aplicação, basta clicar com o botão direito e arrastá-lo de acordo com a angulação desejada, de maneira que o objeto será rotacionado e disponibilizará a visualização por completo sobre o equipamento, além da possibilidade de dar zoom com o scroll do mouse, trazendo a noção de inspeção desejada.
 
 Isso é possível graças a função de `handleEvent` do OpenGL, obtendo o estado do mouse e suas ações.
 
